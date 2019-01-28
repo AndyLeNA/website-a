@@ -113,3 +113,50 @@ body{
     margin-right: 1rem;
     width: 2.5rem;
 }
+
+.pricing {
+    text-align: center;
+    padding: 2em;
+}
+
+.pricing-item{
+    margin: 0 2em;
+    width: 90%;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, .2); 
+}
+
+.pricing hr {
+    background-color: #30343f;
+    height:3px;
+    margin: 1em auto;
+    width: 3.125rem;
+}
+
+.pricing-item-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.pricing-item:nth-child(2) h3{
+    background-color: #DB5461;
+    color: white;
+}
+
+.pricing-item h3{
+    background-color: #30343F;
+}
+
+.pricing-item p {
+    border: 1px solid rgba(0,0,0,.1);
+}
+.pricing-item h3, .pricing-item p, .pricing-item button {
+    padding: .5rem;
+}
+
+.pricing-item-container button {
+    width: 90%;
+    background-color: #fff;;
+    border: 1px solid #DB5461;
+    color: #DB5461;
+}
