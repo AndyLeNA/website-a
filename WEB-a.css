@@ -167,3 +167,9 @@ body{
 .pricing-item:nth-child(1), .pricing-item:nth-child(3) {
     margin-top: 1em;
 }
+
+.ending-bar {
+    display:flex;
+    background-color: rgba(32, 66, 88, .8);
+    padding: 2em;
+}
