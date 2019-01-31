@@ -169,7 +169,18 @@ body{
 }
 
 .ending-bar {
-    display:flex;
     background-color: rgba(32, 66, 88, .8);
     padding: 2em;
+    text-align: center;
+}
+
+.ending-notes {
+    width: 90%;
+    display:flex;
+}
+
+.ending-item {
+    justify-content:center;
+    padding: 1rem;
+    text-align: left;
 }
