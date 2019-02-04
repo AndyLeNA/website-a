@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
     font-size: 1em;
 }
@@ -175,7 +175,7 @@ body{
 }
 
 .ending-notes {
-    width: 90%;
+
     display:flex;
 }
 
@@ -188,10 +188,25 @@ body{
 
 .ending-item h3 {
     padding:.5em 0;
+    color: #fff;
+}
+
+.ending-item p {
+    color: #aaa;
+}
+
+.ending-bar h2 {
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .ending-bar hr {
     width: 3.175rem;
     margin: 1em auto;
     height: 3px;
+}
+
+.fas {
+    font-size: 2em;
+    color: #DB5461;
 }
