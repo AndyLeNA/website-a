@@ -206,7 +206,12 @@ body{
     height: 3px;
 }
 
-.fas {
+.ending-item a {
+    color: #db5461;
+    text-decoration: none;
+}
+
+.fas-2x {
     font-size: 2em;
     color: #DB5461;
 }
